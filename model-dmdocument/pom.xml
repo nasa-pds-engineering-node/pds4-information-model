@@ -42,10 +42,10 @@
     <artifactId>model-dmdocument</artifactId>
     <packaging>maven-plugin</packaging>
 
-    <name>Model DM-Document Maven Plugin</name>
+    <name>(Sandbox) Model DM-Document Maven Plugin</name>
     <description>
         The Model DM-Document component provides Maven plugins that generate DM
-        documents and other artifacts from ontologies.
+        documents and other artifacts from ontologies. Sandbox version: for experimental use only.
     </description>
     <url>https://nasa-pds.github.io/pds4-information-model/model-dmdocument/</url>
 

@@ -42,9 +42,9 @@ POSSIBILITY OF SUCH DAMAGE.
     <artifactId>model-ontology</artifactId>
     <packaging>jar</packaging>
 
-    <name>Model Ontology</name>
+    <name>(Sandbox) Model Ontology</name>
     <description>
-        The PDS4 Model Ontology component conains the Protégé ontology instances for the PDS4 information and data model, and uses the Maven plugin "model-dmdocument" to generate documentation and other artifcats from the ontology into a generated JAR file.
+        The PDS4 Model Ontology component conains the Protégé ontology instances for the PDS4 information and data model, and uses the Maven plugin "model-dmdocument" to generate documentation and other artifcats from the ontology into a generated JAR file.  Sandbox version: for experimental use only.
     </description>
     <url>https://nasa-pds.github.io/pds4-information-model/model-ontology/</url>
 
@@ -115,7 +115,7 @@ POSSIBILITY OF SUCH DAMAGE.
         <pluginManagement>
 			<plugins>
 				<plugin>
-	                <groupId>gov.nasa.pds.model</groupId>
+	                <groupId>gov.nasa.pds.sandbox.model</groupId>
 	                <artifactId>model-dmdocument</artifactId>
 	                <version>${project.version}</version>
 	                <configuration>

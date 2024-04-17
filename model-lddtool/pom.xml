@@ -42,9 +42,10 @@
   <artifactId>model-lddtool</artifactId>
   <packaging>pom</packaging>
 
-  <name>Local Data Dictionary Tool</name>
+  <name>(Sandbox) Local Data Dictionary Tool</name>
   <description>
     The PDS4 LDDTool uses the Maven plugin "model-dmdocument" as an executible jar to process an input XML file. The input XML document is parsed and the contents are validated against the master database. The validated contents are integrated into the master database. The XML Schema and Schematron files are written. The process report and spreadsheet are written.
+    Sandbox version: for experimental use only.
   </description>
   <url>https://nasa-pds.github.io/pds4-information-model/model-lddtool/</url>
 
@@ -94,7 +95,7 @@
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>gov.nasa.pds.model</groupId>
+                  <groupId>gov.nasa.pds.sandbox.model</groupId>
                   <artifactId>model-dmdocument</artifactId>
                   <version>${project.version}</version>
                   <type>jar</type>
@@ -132,7 +133,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>gov.nasa.pds.model</groupId>
+      <groupId>gov.nasa.pds.sandbox.model</groupId>
       <artifactId>model-dmdocument</artifactId>
       <version>${project.version}</version>
     </dependency>

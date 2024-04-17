@@ -43,9 +43,9 @@ POSSIBILITY OF SUCH DAMAGE.
   <groupId>gov.nasa.pds.sandbox.model</groupId>
   <artifactId>model-termmap</artifactId>
   <packaging>war</packaging>
-  <name>Model Terminological Mapping Tool</name>
+  <name>(Sandbox) Model Terminological Mapping Tool</name>
   <description>
-    The Model Terminological Mapping Tool converts CSV formatted PDS3 and PDS4 info into SKOS records. It also provides a web service for the search of SKOS records.
+    The Model Terminological Mapping Tool converts CSV formatted PDS3 and PDS4 info into SKOS records. It also provides a web service for the search of SKOS records. Sandbox version: for experimental use only.
   </description>
   <url>https://nasa-pds.github.io/model/model-termmap/</url>
 
@@ -73,7 +73,7 @@ POSSIBILITY OF SUCH DAMAGE.
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>gov.nasa.pds.model</groupId>
+                  <groupId>gov.nasa.pds.sandbox.model</groupId>
                   <artifactId>model-dmdocument</artifactId>
                   <version>${pom.version}</version>
                   <type>jar</type>
@@ -119,7 +119,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
   <dependencies>
     <dependency>
-      <groupId>gov.nasa.pds.model</groupId>
+      <groupId>gov.nasa.pds.sandbox.model</groupId>
       <artifactId>model-dmdocument</artifactId>
       <version>${pom.version}</version>
     </dependency>
