@@ -75,7 +75,7 @@ jobs:
                     packages: openjdk11-jdk
                     maven-build-phases: install
                     maven-doc-phases: clean,site,site:stage
-                    maven-stable-artifact-phases: clean,site,site:stage
+                    maven-stable-artifact-phases: clean,site,site
                     documentation-dir: target/staging/model
                 env:
                     ossrh_username: ${{secrets.OSSRH_USERNAME}}
